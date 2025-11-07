@@ -1,6 +1,6 @@
 spring:
   application:
-    name: lib-idp-adapter
+    name: lib-idp
     version: 1.0.0
     description: Identity Provider Adapter
     team:

@@ -1,4 +1,4 @@
-# Firefly OpenCore Banking Platform - IDP Adapter Library
+# Firefly OpenCore Banking Platform - IDP Library
 
 A small, provider-agnostic interface to standardize Identity Provider (IdP) operations across platforms such as Keycloak, AWS Cognito, Okta, Auth0, and others. It exposes a consistent, reactive API so your application code remains clean and portable, while concrete implementations translate calls into provider‑specific requests.
 
@@ -42,14 +42,14 @@ Add the dependency to your Maven project. Replace the version as appropriate.
 ```xml
 <dependency>
     <groupId>com.firefly</groupId>
-    <artifactId>lib-idp-adapter</artifactId>
+    <artifactId>lib-idp</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 </dependency>
 ```
 
 If you are using Gradle (Kotlin DSL):
 ```kotlin
-implementation("com.firefly:lib-idp-adapter:1.0.0-SNAPSHOT")
+implementation("com.firefly:lib-idp:1.0.0-SNAPSHOT")
 ```
 
 Note: This module provides only the abstraction (interface + DTOs). You will need an implementation module for your chosen provider.
